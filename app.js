@@ -11,7 +11,7 @@ var mongoose = require('mongoose'),
 //******************************************************************************
 // CONNECT TO MONGODB on MONGOLAB
 //
-mongoose.connect('mongodb://admin:admin@ds061189.mongolab.com:61189/mongoose-sample');
+mongoose.connect('mongodb://xxxxxxxxxx:xxxxxxxxxx@ds061189.mongolab.com:61189/mongoose-sample');
 	
 // Define our test schema
 var PersonSchema   = new mongoose.Schema({
